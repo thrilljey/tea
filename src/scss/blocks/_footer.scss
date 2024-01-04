@@ -1,0 +1,96 @@
+.footer {
+	background: #F7F2EA;
+	padding: 100px 0 18px 0;
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 100px;
+	}
+	&__menu {
+		margin-right: 40px;
+	}
+	&__menu-title {
+		margin-bottom: 50px;
+		font-family: var(--font-accent);
+		font-size: 24px;
+		font-weight: 400;
+		line-height: normal;
+	}
+	&__list {
+		display: flex;
+		flex-direction: column;
+		gap: 20px 0;
+	}
+	&__list-item {
+
+	}
+	&__list-link {
+		color: var(--text-color);	
+		font-size: 16px;
+		line-height: normal;
+	}
+	&__quote {
+		margin-top: 80px;
+		line-height: normal;
+	}
+	&__quote-text {
+		max-width: 269px;
+		font-size: 16px;
+		font-style: italic;
+		margin-bottom: 20px;
+	}
+	&__quote-author {
+		font-size: 12px;
+		max-width: 129px;
+	}
+	&__about {
+		max-width: 270px;
+	}
+	&__about-text {
+		font-size: 13px;
+		line-height: normal;
+		margin-bottom: 20px;
+	}
+	&__contacts {
+		display: flex;
+		align-items: center;
+		gap: 0 40px;
+		margin-bottom: 40px;
+	}
+	&__phone, &__email {
+		display: block;
+		font-size: 13px;
+		line-height: normal;
+		color: var(--text-color);
+	}
+	&__phone {
+		margin-bottom: 20px;
+	}
+	&__info-icon {
+		margin-right: 10px;
+	}
+	&__social {
+		display: flex;
+		gap: 0 20px;
+		align-items: center;
+		justify-content: flex-end;
+	}
+	&__social-icon {
+		width: 22px;
+		height: 21px;
+	}
+	&__row {
+		display: flex;
+	}
+	&__copyright {
+		font-size: 16px;
+		line-height: normal;
+		margin-right: 192px;
+	}
+	&__payments {
+		display: flex;
+		gap: 0 20px;
+		align-items: center;
+	}
+}
